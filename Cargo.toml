@@ -1,0 +1,12 @@
+[package]
+name = "egui-pure-glow"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+egui = { version = "0.20.0" }
+egui_glow = { version = "0.20.0", features = ["winit"] }
+egui-winit = { version = "0.20.0" }
+glow = "0.11"
+glutin = "0.30.2"                                        # examples/pure_glow
+raw-window-handle = "0.5.0"
